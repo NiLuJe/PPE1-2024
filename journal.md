@@ -13,4 +13,9 @@ On enchaîne ensuite sur la présentation de quelques commandes, ainsi que du co
 On peut citer en particulier la commande `man`, l’autre meilleur ami de l’homme, car elle nous permet d’accéder aux manuels d’utilisation d’une myriade de choses, que ce soit des outils en ligne de commande, ou des fonctions C pour interagir avec le système.
 
 Puis vient le moment fatidique de la mise en pratique, nous invitant à manipuler diverses commandes afin de trier proprement une liste de fichiers en vrac. On observe le fouillis initial avec `ls -lash`, on crée notre arborescence avec `mkdir -p`, on déplace les fichiers au bon endroit en jouant avec `mv` et des *wildcards*, puis on vérifie le résultat avec `tree`, qui nous offre une vision claire d’une arborescence de fichier.
- 
+
+## Semaine 2
+
+Initiation à git & GitHub pour tout le monde. Bonne chance à ceux qui ne l'utilisent pas depuis presque 15 ans ;p.
+
+Mise en pratique avec un mix de travail via l'interface web GH et la CLI (i.e., ce dépôt).
