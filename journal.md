@@ -3,7 +3,7 @@
 
 On a commencé par une présentation du cours, et notamment du projet titulaire, qui consistera en l’étude d’un mot et des ses variations en plusieurs langues sur le web, le tout en groupe de 3, groupe idéalement constitué d’un élève pour chaque université.
 
-On a ensuite introduit le concept de *pipelines* unix, l’enchaînement de petits outils en ligne de commande, chacun faisant une tâche simple et précise, afin de réaliser au final des tâches plus complexes. Le tout avec une mise en avant ici du traitement de données textuelles (e.g., recherche avec `grep`, tri avec `sort`, mesure de longueur (lignes/mots/octets) avec `wc`). 
+On a ensuite introduit le concept de *pipelines* unix, l’enchaînement de petits outils en ligne de commande, chacun faisant une tâche simple et précise, afin de réaliser au final des tâches plus complexes. Le tout avec une mise en avant ici du traitement de données textuelles (e.g., recherche avec `grep`, tri avec `sort`, mesure de longueur (lignes/mots/octets) avec `wc`).
 
 Après cette petit mise on bouche, on a été introduit à la philosophie Unix, système où tout est fichier, même les périphériques. L’occasion ainsi de faire un petit tour de présentation des concepts généraux permettant de travailler avec des fichiers, notamment en ligne de commande, via les notions de chemin et d’arborescence. En particuliers, la différence entre un chemin absolu (qui part de la racine de l’arborescence, `/`, e.g., `/home/niluje/Documents`) et un chemin relatif (chemin relatif au dossier courant, aussi appelé dossier de travail, e.g., `./Documents` pointera au même endroit que l’exemple précédent si je me trouve dans mon dossier utilisateur). On peut aussi utiliser `.`pour référer de manière explicite au dossier actuel (e.g., `./Documents/./PPE/.` serait une manière extrêmement explicite de simplement dire `Documents/PPE`), et `..`pour référer au parent d’un dossier (e.g., depuis mon dossier utilisateur, `../../../../../home/niluje/Documents` pointe tout simplement vers `Documents`).
 
@@ -18,4 +18,7 @@ Puis vient le moment fatidique de la mise en pratique, nous invitant à manipule
 
 Initiation à git & GitHub pour tout le monde. Bonne chance à ceux qui ne l'utilisent pas depuis presque 15 ans ;p.
 
-Mise en pratique avec un mix de travail via l'interface web GH et la CLI (i.e., ce dépôt).
+Introduction rapide de git en tant que VCS décentralisé, puis création d’une paire de clés SSH et intégration avec GitHub pour sécuriser les transactions.
+Petit tour des sous-commande de base de git, `clone`pour copier un dépôt distant, `fetch` pour réceptionner les méta-données distantes, `pull` pour mettre à jour une branche locale, `add` pour ajouter des modifications locales au suivi, `rm`  pour retirer du suivi, `commit`pour valider les modifications des fichiers suivis, `push`pour envoyer nos modifications locales validées vers le dépôt distant, `status` pour faire le point sur les changements locaux et les différences avec le dépôt distant, `log` pour afficher le journal des changements, `tag` pour gérer les étiquettes.
+
+Mise en pratique avec un mix de travail via l'interface web GH et la CLI (i.e., ce dépôt). Création du dépôt via l’interface web, clone local du nouveau dépôt, ajout du journal au dépôt via l’interface web, mise à jour du journal en local, puis création d’un `.gitgnore` avant de commit & tag le tout.
